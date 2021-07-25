@@ -1,0 +1,23 @@
+.transactionHistory {
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 40px;
+
+    width: 963px;
+    height: 431px;
+
+    border-radius: 8px;
+    background-color: rgb(245, 245, 245);
+    thead {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        color: white;
+        background-color: #00bcd5;
+    }
+    tr {
+        height: 50px;
+    }
+    tbody {
+    }
+}
