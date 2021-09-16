@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import styles from './FriendList.module.scss';
+import avatar from '../Profile/avatar.jpg';
 const FriendList = ({ friends }) => (
     <ul class={styles.friendList}>
         {friends.map(obj => (
@@ -10,7 +11,7 @@ const FriendList = ({ friends }) => (
                 {/* {obj.isOnline && <span class={styles.status}></span>} */}
                 <img
                     class={styles.avatar}
-                    src={obj.avatar}
+                    src={avatar}
                     alt={obj.name}
                     width="48"
                 />

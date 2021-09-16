@@ -8,7 +8,7 @@ import FriendList from './Components/FriendList/FriendList.js';
 import dataFriends from './Components/FriendList/friends.json';
 import TransactionHistory from './Components/TransactionHistory/TransactionHistory.js';
 import transactions from './Components/TransactionHistory/transactions.json';
-
+import avatar from './Components/Profile/avatar.jpg';
 function App() {
     return (
         <div className="App">
@@ -17,7 +17,7 @@ function App() {
                 name={dataProfile.name}
                 tag={dataProfile.tag}
                 location={dataProfile.location}
-                avatar={dataProfile.avatar}
+                avatar={avatar}
                 followers={dataProfile.stats.followers}
                 views={dataProfile.stats.views}
                 likes={dataProfile.stats.likes}
